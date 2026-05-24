@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// 👇 أهم تعديل: لا تستخدم localhost
-const API_BASE = "http://localhost:8000"; // يخلي الطلبات تروح لنفس التطبيق
+const API_BASE = "https://qw-back.onrender.com";
 
 const api = axios.create({
   baseURL: `${API_BASE}/api`,
